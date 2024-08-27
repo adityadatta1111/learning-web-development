@@ -1,0 +1,69 @@
+/* CSS-Property: Value */
+
+/* 
+  Element-Selector (Selects Element):
+
+  Element-Selector {
+    CSS-Property: Value
+  } 
+  */
+
+/*
+  Class-Selector (Selects Class):
+  .class-selector {
+    CSS-Property: Value
+  } 
+  */
+
+/* 
+  ID-Selector (Selects ID):
+  #id-selector {
+    CSS-Property: Value
+  } 
+  */
+
+/* 
+  Class: . (dot)
+  ID: # (pound) 
+  */
+
+/*
+    Attribute-Selector:
+
+    element-name[attribute="value"] {
+    Property: Value; 
+  */
+
+/*
+    Universal-Selector (Selects All):
+
+    * {
+    Property: Value; 
+  */
+
+p {
+  color: rgb(19, 127, 21);
+  /* CSS-Property: Value */
+}
+
+a {
+  color: rgb(123, 163, 47);
+}
+
+.class-selector {
+  color: rgb(123, 163, 47);
+}
+
+#id-selector {
+  color: rgb(163, 47, 155);
+}
+
+li[draggable="true"] {
+  font-size: 155%;
+  color: rgb(41, 86, 125);
+}
+
+* {
+  text-decoration: overline;
+  text-rendering: geometricPrecision;
+}
