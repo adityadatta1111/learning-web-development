@@ -1,0 +1,26 @@
+/* Border: Top-Bottom Right-Left */
+
+#div-1 {
+    border-width: 10px 10px;
+    border-color: rgb(66, 112, 112);
+    border: solid;
+    background-color: antiquewhite;
+}
+
+#div-2 {
+    border-width: 10px 10px;
+    border-color: rgb(66, 112, 112);
+    border: solid;
+    background-color: beige;
+}
+
+#div-3 {
+    border-width: 10px 10px;
+    border-color: rgb(66, 112, 112);
+    border: solid;
+    background-color: aquamarine;
+}
+
+p {
+    margin: 0;
+}

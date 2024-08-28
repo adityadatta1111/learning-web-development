@@ -1,0 +1,28 @@
+h1 {
+    font-family: Handjet, sans;
+}
+
+body {
+    font-size: 15px;;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+#px {
+    font-size: 33px;
+    font-family: "Baskervville SC";
+}
+
+#em {
+    font-size: 2em;
+}
+
+#rem {
+    font-size: 2rem;
+}
+
+#pt {
+    font-size: 12pt;
+}

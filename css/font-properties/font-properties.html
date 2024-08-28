@@ -1,0 +1,41 @@
+<!-- 
+    For online fonts:
+        1. Using <link /> tag: put link in the head; if internal style is being used, use link after the end tag of style 
+        2. Using @import: put @import in the head, inside the <style></style> tag
+-->
+
+<!-- 
+    px = 1/96 inch = 0.26mm
+    pt = 1/72 inch = 0.35mm; this is used in MS Word or any Word document
+    em = 100% of parent
+    rem = 100% of root 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        color: rgb(69, 159, 120);
+      }
+      @import url("https://fonts.googleapis.com/css2?family=Sankofa+Display&display=swap");
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Handjet:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Font</h1>
+    <h2 id="px">px</h2>
+    <h2 id="em">em</h2>
+    <h2 id="rem">rem</h2>
+    <h2 id="pt">pt</h2>
+  </body>
+</html>
