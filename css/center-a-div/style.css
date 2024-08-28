@@ -1,0 +1,23 @@
+/* 
+    Centering a div using width: 50% and margin-left: 25%:
+    
+    width: 50%;
+    margin-left: 25%;
+*/
+
+/*
+    Multiple CSS-Selectors On The Same Line:
+
+    Element-Selector1, Element-Selector1, ..., Element-SelectorN {
+        Property: Value;
+    } */
+
+div {
+    width: 50%;
+    margin-left: 25%;
+    border: dotted;
+}
+
+h1, p {
+    text-align: center;
+}
