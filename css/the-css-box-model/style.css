@@ -1,24 +1,30 @@
 /* Border: Top-Bottom Right-Left */
 
+div {
+    height: 180px;
+    width: 180px;
+  }
+
 #div-1 {
-    border-width: 10px 10px;
-    border-color: rgb(66, 112, 112);
-    border: solid;
+    border: 10px dashed rgb(33, 192, 78);
+    padding: 10px;
     background-color: antiquewhite;
 }
 
 #div-2 {
+    margin-left: 220px;
+    background-color: rgb(164, 203, 184);
+    border: solid rgb(46, 154, 175);
     border-width: 10px 10px;
-    border-color: rgb(66, 112, 112);
-    border: solid;
-    background-color: beige;
+    padding: 10px;
 }
 
 #div-3 {
+    margin-left: 440px;
+    background-color: rgb(179, 179, 114);
+    border: dotted rgba(28, 156, 135, 0.749);
     border-width: 10px 10px;
-    border-color: rgb(66, 112, 112);
-    border: solid;
-    background-color: aquamarine;
+    padding: 10px;
 }
 
 p {
